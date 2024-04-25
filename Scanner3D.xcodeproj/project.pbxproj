@@ -7,13 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4210622F2BD9796000EBE470 /* InventoryFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4210622E2BD9796000EBE470 /* InventoryFormView.swift */; };
+		421062322BD979C200EBE470 /* InventoryFormVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421062312BD979C200EBE470 /* InventoryFormVM.swift */; };
+		421D091C2BD72AC3008AF053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421D091B2BD72AC3008AF053 /* AppDelegate.swift */; };
+		421D091D2BD72AC4008AF053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421D091B2BD72AC3008AF053 /* AppDelegate.swift */; };
+		421D09202BD72F55008AF053 /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421D091F2BD72F55008AF053 /* InventoryItem.swift */; };
+		421D09212BD72F55008AF053 /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421D091F2BD72F55008AF053 /* InventoryItem.swift */; };
+		421D09242BD89E91008AF053 /* InventoryListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421D09232BD89E91008AF053 /* InventoryListVM.swift */; };
+		421D09252BD89E91008AF053 /* InventoryListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421D09232BD89E91008AF053 /* InventoryListVM.swift */; };
+		421D09272BD89FB3008AF053 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421D09262BD89FB3008AF053 /* String+Extension.swift */; };
+		421D09282BD89FB3008AF053 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421D09262BD89FB3008AF053 /* String+Extension.swift */; };
+		421D092B2BD8A03A008AF053 /* InventoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421D092A2BD8A03A008AF053 /* InventoryListView.swift */; };
+		421D09312BD969A6008AF053 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 421D09302BD969A6008AF053 /* GoogleService-Info.plist */; };
+		421D09352BD96A10008AF053 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 421D09342BD96A10008AF053 /* GoogleService-Info.plist */; };
 		42BA86FD2BD6EDA00082E9D1 /* Scanner3DApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA86FC2BD6EDA00082E9D1 /* Scanner3DApp.swift */; };
-		42BA86FF2BD6EDA00082E9D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA86FE2BD6EDA00082E9D1 /* ContentView.swift */; };
 		42BA87012BD6EDA20082E9D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BA87002BD6EDA20082E9D1 /* Assets.xcassets */; };
 		42BA87042BD6EDA20082E9D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BA87032BD6EDA20082E9D1 /* Preview Assets.xcassets */; };
 		42BA870E2BD6EDA20082E9D1 /* Scanner3DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA870D2BD6EDA20082E9D1 /* Scanner3DTests.swift */; };
 		42BA87182BD6EDA20082E9D1 /* Scanner3DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA87172BD6EDA20082E9D1 /* Scanner3DUITests.swift */; };
 		42BA871A2BD6EDA20082E9D1 /* Scanner3DUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA87192BD6EDA20082E9D1 /* Scanner3DUITestsLaunchTests.swift */; };
+		42BA872F2BD6EE0F0082E9D1 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 42BA872E2BD6EE0F0082E9D1 /* RealityKitContent */; };
+		42BA87312BD6EE0F0082E9D1 /* Scanner3DVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA87302BD6EE0F0082E9D1 /* Scanner3DVisionApp.swift */; };
+		42BA87332BD6EE0F0082E9D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA87322BD6EE0F0082E9D1 /* ContentView.swift */; };
+		42BA87352BD6EE120082E9D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BA87342BD6EE120082E9D1 /* Assets.xcassets */; };
+		42BA87382BD6EE120082E9D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BA87372BD6EE120082E9D1 /* Preview Assets.xcassets */; };
+		42BA87432BD6EE120082E9D1 /* Scanner3DVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA87422BD6EE120082E9D1 /* Scanner3DVisionTests.swift */; };
+		42BA874D2BD6F3E50082E9D1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 42BA874C2BD6F3E50082E9D1 /* FirebaseFirestore */; };
+		42BA874F2BD6F4070082E9D1 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 42BA874E2BD6F4070082E9D1 /* FirebaseFirestoreSwift */; };
+		42BA87512BD6F4070082E9D1 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 42BA87502BD6F4070082E9D1 /* FirebaseStorage */; };
+		42BA87532BD6F4330082E9D1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 42BA87522BD6F4330082E9D1 /* FirebaseFirestore */; };
+		42BA87552BD6F4330082E9D1 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 42BA87542BD6F4330082E9D1 /* FirebaseFirestoreSwift */; };
+		42BA87572BD6F4340082E9D1 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 42BA87562BD6F4340082E9D1 /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +55,28 @@
 			remoteGlobalIDString = 42BA86F82BD6ED9F0082E9D1;
 			remoteInfo = Scanner3D;
 		};
+		42BA873F2BD6EE120082E9D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42BA86F12BD6ED9F0082E9D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42BA87292BD6EE0F0082E9D1;
+			remoteInfo = Scanner3DVision;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4210622E2BD9796000EBE470 /* InventoryFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryFormView.swift; sourceTree = "<group>"; };
+		421062312BD979C200EBE470 /* InventoryFormVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryFormVM.swift; sourceTree = "<group>"; };
+		421D09192BD7296A008AF053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		421D091B2BD72AC3008AF053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		421D091F2BD72F55008AF053 /* InventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItem.swift; sourceTree = "<group>"; };
+		421D09232BD89E91008AF053 /* InventoryListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListVM.swift; sourceTree = "<group>"; };
+		421D09262BD89FB3008AF053 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		421D092A2BD8A03A008AF053 /* InventoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListView.swift; sourceTree = "<group>"; };
+		421D09302BD969A6008AF053 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		421D09342BD96A10008AF053 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		42BA86F92BD6EDA00082E9D1 /* Scanner3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scanner3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BA86FC2BD6EDA00082E9D1 /* Scanner3DApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner3DApp.swift; sourceTree = "<group>"; };
-		42BA86FE2BD6EDA00082E9D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		42BA87002BD6EDA20082E9D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42BA87032BD6EDA20082E9D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		42BA87092BD6EDA20082E9D1 /* Scanner3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Scanner3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +84,15 @@
 		42BA87132BD6EDA20082E9D1 /* Scanner3DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Scanner3DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BA87172BD6EDA20082E9D1 /* Scanner3DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner3DUITests.swift; sourceTree = "<group>"; };
 		42BA87192BD6EDA20082E9D1 /* Scanner3DUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner3DUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42BA872A2BD6EE0F0082E9D1 /* Scanner3DVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scanner3DVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BA872D2BD6EE0F0082E9D1 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		42BA87302BD6EE0F0082E9D1 /* Scanner3DVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner3DVisionApp.swift; sourceTree = "<group>"; };
+		42BA87322BD6EE0F0082E9D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42BA87342BD6EE120082E9D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42BA87372BD6EE120082E9D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42BA87392BD6EE120082E9D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42BA873E2BD6EE120082E9D1 /* Scanner3DVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Scanner3DVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BA87422BD6EE120082E9D1 /* Scanner3DVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner3DVisionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +100,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42BA874D2BD6F3E50082E9D1 /* FirebaseFirestore in Frameworks */,
+				42BA874F2BD6F4070082E9D1 /* FirebaseFirestoreSwift in Frameworks */,
+				42BA87512BD6F4070082E9D1 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,16 +120,83 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		42BA87272BD6EE0F0082E9D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BA872F2BD6EE0F0082E9D1 /* RealityKitContent in Frameworks */,
+				42BA87572BD6F4340082E9D1 /* FirebaseStorage in Frameworks */,
+				42BA87532BD6F4330082E9D1 /* FirebaseFirestore in Frameworks */,
+				42BA87552BD6F4330082E9D1 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BA873B2BD6EE120082E9D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		421062302BD979A000EBE470 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				421062312BD979C200EBE470 /* InventoryFormVM.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		421D091A2BD72A78008AF053 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				421D09222BD89E56008AF053 /* Observables */,
+				421D091E2BD72F18008AF053 /* Models */,
+				421D091B2BD72AC3008AF053 /* AppDelegate.swift */,
+				421D09262BD89FB3008AF053 /* String+Extension.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		421D091E2BD72F18008AF053 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				421D091F2BD72F55008AF053 /* InventoryItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		421D09222BD89E56008AF053 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				421D09232BD89E91008AF053 /* InventoryListVM.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		421D09292BD89FFB008AF053 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				421D092A2BD8A03A008AF053 /* InventoryListView.swift */,
+				4210622E2BD9796000EBE470 /* InventoryFormView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		42BA86F02BD6ED9F0082E9D1 = {
 			isa = PBXGroup;
 			children = (
+				421D091A2BD72A78008AF053 /* Shared */,
 				42BA86FB2BD6EDA00082E9D1 /* Scanner3D */,
 				42BA870C2BD6EDA20082E9D1 /* Scanner3DTests */,
 				42BA87162BD6EDA20082E9D1 /* Scanner3DUITests */,
+				42BA872B2BD6EE0F0082E9D1 /* Scanner3DVision */,
+				42BA872C2BD6EE0F0082E9D1 /* Packages */,
+				42BA87412BD6EE120082E9D1 /* Scanner3DVisionTests */,
 				42BA86FA2BD6EDA00082E9D1 /* Products */,
+				42BA874B2BD6F3E40082E9D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +206,8 @@
 				42BA86F92BD6EDA00082E9D1 /* Scanner3D.app */,
 				42BA87092BD6EDA20082E9D1 /* Scanner3DTests.xctest */,
 				42BA87132BD6EDA20082E9D1 /* Scanner3DUITests.xctest */,
+				42BA872A2BD6EE0F0082E9D1 /* Scanner3DVision.app */,
+				42BA873E2BD6EE120082E9D1 /* Scanner3DVisionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +215,11 @@
 		42BA86FB2BD6EDA00082E9D1 /* Scanner3D */ = {
 			isa = PBXGroup;
 			children = (
+				421062302BD979A000EBE470 /* Observables */,
+				421D09342BD96A10008AF053 /* GoogleService-Info.plist */,
+				421D09292BD89FFB008AF053 /* Views */,
+				421D09192BD7296A008AF053 /* Info.plist */,
 				42BA86FC2BD6EDA00082E9D1 /* Scanner3DApp.swift */,
-				42BA86FE2BD6EDA00082E9D1 /* ContentView.swift */,
 				42BA87002BD6EDA20082E9D1 /* Assets.xcassets */,
 				42BA87022BD6EDA20082E9D1 /* Preview Content */,
 			);
@@ -127,6 +251,50 @@
 			path = Scanner3DUITests;
 			sourceTree = "<group>";
 		};
+		42BA872B2BD6EE0F0082E9D1 /* Scanner3DVision */ = {
+			isa = PBXGroup;
+			children = (
+				421D09302BD969A6008AF053 /* GoogleService-Info.plist */,
+				42BA87302BD6EE0F0082E9D1 /* Scanner3DVisionApp.swift */,
+				42BA87322BD6EE0F0082E9D1 /* ContentView.swift */,
+				42BA87342BD6EE120082E9D1 /* Assets.xcassets */,
+				42BA87392BD6EE120082E9D1 /* Info.plist */,
+				42BA87362BD6EE120082E9D1 /* Preview Content */,
+			);
+			path = Scanner3DVision;
+			sourceTree = "<group>";
+		};
+		42BA872C2BD6EE0F0082E9D1 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				42BA872D2BD6EE0F0082E9D1 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		42BA87362BD6EE120082E9D1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				42BA87372BD6EE120082E9D1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		42BA87412BD6EE120082E9D1 /* Scanner3DVisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				42BA87422BD6EE120082E9D1 /* Scanner3DVisionTests.swift */,
+			);
+			path = Scanner3DVisionTests;
+			sourceTree = "<group>";
+		};
+		42BA874B2BD6F3E40082E9D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +311,11 @@
 			dependencies = (
 			);
 			name = Scanner3D;
+			packageProductDependencies = (
+				42BA874C2BD6F3E50082E9D1 /* FirebaseFirestore */,
+				42BA874E2BD6F4070082E9D1 /* FirebaseFirestoreSwift */,
+				42BA87502BD6F4070082E9D1 /* FirebaseStorage */,
+			);
 			productName = Scanner3D;
 			productReference = 42BA86F92BD6EDA00082E9D1 /* Scanner3D.app */;
 			productType = "com.apple.product-type.application";
@@ -183,6 +356,47 @@
 			productReference = 42BA87132BD6EDA20082E9D1 /* Scanner3DUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		42BA87292BD6EE0F0082E9D1 /* Scanner3DVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BA87442BD6EE120082E9D1 /* Build configuration list for PBXNativeTarget "Scanner3DVision" */;
+			buildPhases = (
+				42BA87262BD6EE0F0082E9D1 /* Sources */,
+				42BA87272BD6EE0F0082E9D1 /* Frameworks */,
+				42BA87282BD6EE0F0082E9D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scanner3DVision;
+			packageProductDependencies = (
+				42BA872E2BD6EE0F0082E9D1 /* RealityKitContent */,
+				42BA87522BD6F4330082E9D1 /* FirebaseFirestore */,
+				42BA87542BD6F4330082E9D1 /* FirebaseFirestoreSwift */,
+				42BA87562BD6F4340082E9D1 /* FirebaseStorage */,
+			);
+			productName = Scanner3DVision;
+			productReference = 42BA872A2BD6EE0F0082E9D1 /* Scanner3DVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42BA873D2BD6EE120082E9D1 /* Scanner3DVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BA87472BD6EE120082E9D1 /* Build configuration list for PBXNativeTarget "Scanner3DVisionTests" */;
+			buildPhases = (
+				42BA873A2BD6EE120082E9D1 /* Sources */,
+				42BA873B2BD6EE120082E9D1 /* Frameworks */,
+				42BA873C2BD6EE120082E9D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42BA87402BD6EE120082E9D1 /* PBXTargetDependency */,
+			);
+			name = Scanner3DVisionTests;
+			productName = Scanner3DVisionTests;
+			productReference = 42BA873E2BD6EE120082E9D1 /* Scanner3DVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +418,13 @@
 						CreatedOnToolsVersion = 15.3;
 						TestTargetID = 42BA86F82BD6ED9F0082E9D1;
 					};
+					42BA87292BD6EE0F0082E9D1 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					42BA873D2BD6EE120082E9D1 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 42BA87292BD6EE0F0082E9D1;
+					};
 				};
 			};
 			buildConfigurationList = 42BA86F42BD6ED9F0082E9D1 /* Build configuration list for PBXProject "Scanner3D" */;
@@ -215,6 +436,9 @@
 				Base,
 			);
 			mainGroup = 42BA86F02BD6ED9F0082E9D1;
+			packageReferences = (
+				42BA874A2BD6F1BF0082E9D1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 42BA86FA2BD6EDA00082E9D1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -222,6 +446,8 @@
 				42BA86F82BD6ED9F0082E9D1 /* Scanner3D */,
 				42BA87082BD6EDA20082E9D1 /* Scanner3DTests */,
 				42BA87122BD6EDA20082E9D1 /* Scanner3DUITests */,
+				42BA87292BD6EE0F0082E9D1 /* Scanner3DVision */,
+				42BA873D2BD6EE120082E9D1 /* Scanner3DVisionTests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +458,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42BA87042BD6EDA20082E9D1 /* Preview Assets.xcassets in Resources */,
+				421D09352BD96A10008AF053 /* GoogleService-Info.plist in Resources */,
 				42BA87012BD6EDA20082E9D1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +477,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		42BA87282BD6EE0F0082E9D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BA87382BD6EE120082E9D1 /* Preview Assets.xcassets in Resources */,
+				42BA87352BD6EE120082E9D1 /* Assets.xcassets in Resources */,
+				421D09312BD969A6008AF053 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BA873C2BD6EE120082E9D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +501,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42BA86FF2BD6EDA00082E9D1 /* ContentView.swift in Sources */,
+				421D091C2BD72AC3008AF053 /* AppDelegate.swift in Sources */,
 				42BA86FD2BD6EDA00082E9D1 /* Scanner3DApp.swift in Sources */,
+				421062322BD979C200EBE470 /* InventoryFormVM.swift in Sources */,
+				421D09242BD89E91008AF053 /* InventoryListVM.swift in Sources */,
+				421D09272BD89FB3008AF053 /* String+Extension.swift in Sources */,
+				421D09202BD72F55008AF053 /* InventoryItem.swift in Sources */,
+				421D092B2BD8A03A008AF053 /* InventoryListView.swift in Sources */,
+				4210622F2BD9796000EBE470 /* InventoryFormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +529,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		42BA87262BD6EE0F0082E9D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421D091D2BD72AC4008AF053 /* AppDelegate.swift in Sources */,
+				42BA87332BD6EE0F0082E9D1 /* ContentView.swift in Sources */,
+				42BA87312BD6EE0F0082E9D1 /* Scanner3DVisionApp.swift in Sources */,
+				421D09252BD89E91008AF053 /* InventoryListVM.swift in Sources */,
+				421D09282BD89FB3008AF053 /* String+Extension.swift in Sources */,
+				421D09212BD72F55008AF053 /* InventoryItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BA873A2BD6EE120082E9D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BA87432BD6EE120082E9D1 /* Scanner3DVisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +562,11 @@
 			isa = PBXTargetDependency;
 			target = 42BA86F82BD6ED9F0082E9D1 /* Scanner3D */;
 			targetProxy = 42BA87142BD6EDA20082E9D1 /* PBXContainerItemProxy */;
+		};
+		42BA87402BD6EE120082E9D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42BA87292BD6EE0F0082E9D1 /* Scanner3DVision */;
+			targetProxy = 42BA873F2BD6EE120082E9D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -425,6 +701,7 @@
 				DEVELOPMENT_TEAM = 7GVS87WH69;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Scanner3D/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +731,7 @@
 				DEVELOPMENT_TEAM = 7GVS87WH69;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Scanner3D/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -548,6 +826,106 @@
 			};
 			name = Release;
 		};
+		42BA87452BD6EE120082E9D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scanner3DVision/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.Scanner3DVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		42BA87462BD6EE120082E9D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scanner3DVision/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.Scanner3DVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		42BA87482BD6EE120082E9D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7GVS87WH69;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.Scanner3DVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scanner3DVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scanner3DVision";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		42BA87492BD6EE120082E9D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7GVS87WH69;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.Scanner3DVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scanner3DVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scanner3DVision";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -587,7 +965,73 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		42BA87442BD6EE120082E9D1 /* Build configuration list for PBXNativeTarget "Scanner3DVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BA87452BD6EE120082E9D1 /* Debug */,
+				42BA87462BD6EE120082E9D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42BA87472BD6EE120082E9D1 /* Build configuration list for PBXNativeTarget "Scanner3DVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BA87482BD6EE120082E9D1 /* Debug */,
+				42BA87492BD6EE120082E9D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		42BA874A2BD6F1BF0082E9D1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		42BA872E2BD6EE0F0082E9D1 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		42BA874C2BD6F3E50082E9D1 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42BA874A2BD6F1BF0082E9D1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		42BA874E2BD6F4070082E9D1 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42BA874A2BD6F1BF0082E9D1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		42BA87502BD6F4070082E9D1 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42BA874A2BD6F1BF0082E9D1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		42BA87522BD6F4330082E9D1 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42BA874A2BD6F1BF0082E9D1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		42BA87542BD6F4330082E9D1 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42BA874A2BD6F1BF0082E9D1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		42BA87562BD6F4340082E9D1 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42BA874A2BD6F1BF0082E9D1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 42BA86F12BD6ED9F0082E9D1 /* Project object */;
 }

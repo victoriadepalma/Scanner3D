@@ -1,0 +1,32 @@
+[debug] [2024-04-24T16:17:26.846Z] ----------------------------------------------------------------------
+[debug] [2024-04-24T16:17:26.847Z] Command:       /usr/local/bin/node /usr/local/bin/firebase projects:list
+[debug] [2024-04-24T16:17:26.847Z] CLI Version:   12.3.1
+[debug] [2024-04-24T16:17:26.847Z] Platform:      darwin
+[debug] [2024-04-24T16:17:26.847Z] Node Version:  v18.16.0
+[debug] [2024-04-24T16:17:26.848Z] Time:          Wed Apr 24 2024 12:17:26 GMT-0400 (Venezuela Time)
+[debug] [2024-04-24T16:17:26.848Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-24T16:17:26.850Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-24T16:17:26.850Z] > authorizing via signed-in user (v.depalma@correo.unimet.edu.ve)
+[debug] [2024-04-24T16:17:26.853Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2024-04-24T16:17:30.640Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-04-24T16:17:30.641Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] ┌──────────────────────┬────────────────────────┬────────────────┬──────────────────────┐
+│ Project Display Name │ Project ID             │ Project Number │ Resource Location ID │
+├──────────────────────┼────────────────────────┼────────────────┼──────────────────────┤
+│ artventures          │ artventures-50d01      │ 140758627706   │ us-central           │
+├──────────────────────┼────────────────────────┼────────────────┼──────────────────────┤
+│ InventoryTracker     │ inventorytracker-3fe47 │ 59175258627    │ [Not specified]      │
+├──────────────────────┼────────────────────────┼────────────────┼──────────────────────┤
+│ InventoryTracker     │ inventorytracker-d6d93 │ 565177106908   │ us-central           │
+├──────────────────────┼────────────────────────┼────────────────┼──────────────────────┤
+│ InventoryTracker     │ tracker-aab2c          │ 883638998626   │ [Not specified]      │
+└──────────────────────┴────────────────────────┴────────────────┴──────────────────────┘
+[info] 
+[info] 4 project(s) total.
+[debug] [2024-04-24T16:17:35.838Z] Error: Timed out.
+    at Timeout._onTimeout (/usr/local/lib/node_modules/firebase-tools/lib/utils.js:253:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.

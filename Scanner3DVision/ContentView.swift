@@ -1,24 +1,26 @@
 //
 //  ContentView.swift
-//  Scanner3D
+//  Scanner3DVision
 //
 //  Created by Victoria De Palma on 4/22/24.
 //
 
 import SwiftUI
+import RealityKit
+import RealityKitContent
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
+            Model3D(named: "Scene", bundle: realityKitContentBundle)
+                .padding(.bottom, 50)
+
             Text("Hello, world!")
         }
         .padding()
     }
 }
 
-#Preview {
+#Preview(windowStyle: .automatic) {
     ContentView()
 }
